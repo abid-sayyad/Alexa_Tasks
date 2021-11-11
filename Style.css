@@ -1,0 +1,106 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    word-spacing: 1em;
+    color: black;
+}
+.web_name{
+    
+    font-size: 30px;
+    color: rgb(99, 99, 99);
+}
+.twitter{
+    height: 26px;
+    width: 29px;
+    cursor:pointer;   
+}
+.instagram{
+    height: 23px;
+    width: 30px;
+    cursor:pointer;    
+}
+.facebook{
+    height: 26px;
+    width: 29px;
+    cursor:pointer;    
+}
+.search{
+    height: 20px;
+    width: 20px;
+    cursor:pointer;    
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:rgb(112, 112, 112);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.central_image{
+    height: 60vh;
+
+}
+#home{
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+
+}
+.main_head{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_head h1{
+    font-size: 30px;
+    width: 22rem;
+    color: rgb(99, 99, 99);
+}
+.zigzag{
+    margin-top: 2rem;
+    width: 20%;
+    height: 6%;
+    background-image: url(images/zigzag.png);
+    background-size: cover;
+}
+.Email_input{
+    border-width: 0 0 3px;
+    border-color: black;
+    width: 75%;
+    margin: 20px 0px;
+    margin-right: auto;
+    outline: 0;
+}
+.main_head button{
+    border: none;
+    width: 8rem;
+    background-color: rgb(250, 235, 23);
+    padding: 15px 15px;
+    font-size: 2vh;
+    cursor:pointer;
+}
+.footer{
+    position:relative;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.footer img{
+    width: 100vw;
+}
